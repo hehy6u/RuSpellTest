@@ -1,0 +1,273 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "RussianSpellBook",
+				"abbreviation": "RSB",
+				"full": "RussianSpellBook",
+				"url": "",
+				"authors": [
+					"Uselessness"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1615040005,
+		"dateLastModified": 1615040005
+	},
+	"spell": [
+		{
+			"name": "Подмога",
+			"source": "RussianSpellBook",
+			"page": 211,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "полоска белой ткани"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"Ваше заклинание наделяет союзников стойкостью и решимостью. Выберите до трёх существ в пределах дистанции. На время длительности максимум хитов и текущие хиты всех целей увеличиваются на 5."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Если вы накладываете это заклинание, используя ячейку 3 уровня или выше, хиты целей увеличиваются ещё на 5 за каждый уровень ячейки выше второго."
+					]
+				}
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "UAArtificer"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Protection (UA)",
+							"source": "UAClericDivineDomains"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Solidarity (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Unity (UA)",
+							"source": "UA2020SubclassesPt2"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Peace",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Clockwork Soul",
+							"source": "TCE"
+						}
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Bard",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Halfling (Mark of Hospitality)",
+					"source": "ERLW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Boros Legionnaire",
+					"source": "GGR"
+				},
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Брызгы кислоты",
+			"source": "RussianSpellBook",
+			"page": 1,
+			"srd": true,
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Вы кидаете кислотный шарик. Выберите одно существо в пределах дистанции или два существа в пределах дистанции, находящихся в пределах 5 фт. друг от друга. Цель должна преуспеть в спасброске Ловкости, иначе она получает урон кислотой 1d6. Урон этого заклинания увеличивается на 1d6, когда вы достигаете 5 уровня (2d6), 11 уровня (3d6) и 17 уровня (4d6)."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": ""
+					},
+					{
+						"name": "Wizard",
+						"source": ""
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": ""
+					},
+					{
+						"name": "Artificer",
+						"source": ""
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Druid",
+						"source": "",
+						"definedInSource": ""
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Simic Scientist",
+					"source": ""
+				}
+			]
+		}
+	]
+}
