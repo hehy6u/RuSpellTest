@@ -4570,6 +4570,11 @@
 			"shapedData": {
 				"primaryDamageCondition": "save"
 			}
+		},
+		{
+			"name": "Подмога",
+			"source": "RussianSpellBook",
+			"data": {}
 		}
 	]
 }
