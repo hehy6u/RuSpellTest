@@ -4560,7 +4560,7 @@
 		},
 		{
 			"name": "Брызги кислоты",
-			"source": "RussianSpellBook",
+			"source": "PHB",
 			"data": {
 				"Save": "Dexterity",
 				"Damage": "1d6",
@@ -4573,7 +4573,7 @@
 		},
 		{
 			"name": "Подмога",
-			"source": "RussianSpellBook",
+			"source": "PHB",
 			"data": {}
 		}
 	]
